@@ -1,3 +1,5 @@
+package T1;
+
 import java.util.Scanner;
 
 public class T1_EJ6 {

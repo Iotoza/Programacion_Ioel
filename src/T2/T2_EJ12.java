@@ -1,3 +1,5 @@
+package T2;
+
 import java.util.Scanner;
 //corregir
 public class T2_EJ12 {

@@ -1,3 +1,5 @@
+package T2;
+
 import java.util.Scanner;
 
 public class T2_EJ16{
@@ -13,13 +15,19 @@ public class T2_EJ16{
 
         int cant = sc.nextInt();
 
+
+
         System.out.println("Dime a que quieres transformar (D/E)");
+
+        double D = 1;
+
+        double E = 1;
 
         boolean trans = sc.nextBoolean();
 
 
 
-        if (trans  );
+        if (trans == D );
 
 
 

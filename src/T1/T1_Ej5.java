@@ -1,3 +1,5 @@
+package T1;
+
 public class T1_Ej5 {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package T2;
+
 import java.util.Scanner;
 public class T2_EJ14 {
     public static void main(String[] args) {
