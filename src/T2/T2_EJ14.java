@@ -13,7 +13,7 @@ public class T2_EJ14 {
 
         int n_dia = sc.nextInt();
 
-        int precio_fn = n_dia * 15;
+        int precio_fn = n_dia * n_per* 15;
 
         double descuento = precio_fn * 0.25;
 

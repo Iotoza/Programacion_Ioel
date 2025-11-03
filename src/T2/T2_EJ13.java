@@ -10,28 +10,60 @@ public class T2_EJ13 {
 
             System.out.println("Dime la hora (0-23):");
             int hora = sc.nextInt();
+        while (hora < 0) {
+            System.out.println("Prueba de nuevo");
+            System.out.println("Dime la hora (0-23):");
+            hora = sc.nextInt();
+        }
+
+        System.out.println("Dime los minutos (0-59)");
+        int min = sc.nextInt();
+        while (min < 0) {
+            System.out.println("Prueba de nuevo");
+            System.out.println("Dime los minutos (0-59)");
+            min = sc.nextInt();
+        }
+
+        System.out.println("Y dime los segundos (0-59):");
+        int seg = sc.nextInt();
+        while (seg < 0) {
+            System.out.println("Prueba de nuevo");
+            System.out.println("Y dime los segundos (0-59):");
+            seg = sc.nextInt();
+        }
+
+        seg= seg+1;
+
+
+        if (seg == 60) {
+            seg = 0;
+            min++;
+        }
+
+        if (min == 60) {
+            min = 0;
+            hora++;
+        }
 
             if (hora == 24) {
                 hora = 0;
             }
 
-            System.out.println("Dime los minutos (0-59)");
-            int min = sc.nextInt();
-
-            if (min == 60) {
-                min = 0;
-                hora++;
-            }
 
 
-            System.out.println("Y dime los segundos (0-59):");
-            int seg = sc.nextInt() + 1;
 
-            if (seg == 60) {
-                seg = 0;
-                min++;
-            }
-                System.out.println("La hora mas un segundo es: " + hora + ":" + min + ":" + seg);
+
+
+
+
+
+
+
+
+
+
+
+            System.out.println("La hora mas un segundo es: " + hora + ":" + min + ":" + seg);
 
 
     }
