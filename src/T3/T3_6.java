@@ -1,22 +1,19 @@
 package T3;
-
+import java.util.Scanner;
 import static T3.T3_5.tablademultiplicar;
 
 public class T3_6 {
-public static void main(String[] args) {
-int num = 0;
+public static void tablasnumeros(int num) {
 
-tablademultiplicar(num);
-
+    tablademultiplicar(num);
+    int cont = 0;
     do {
 
         System.out.println("La tabla del: " + num);
         tablademultiplicar(num);
-        num++;
+        cont++;
 
-    } while (num < 10);
-
-
+    } while (cont < 10);
 
     }
 }

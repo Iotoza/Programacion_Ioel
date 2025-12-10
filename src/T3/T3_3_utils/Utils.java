@@ -1,4 +1,4 @@
-package T3_3;
+package T3.T3_3_utils;
 import java.util.Scanner;
 public class Utils {
 

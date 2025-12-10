@@ -13,7 +13,7 @@ import static T3.T3_8.fechacorrecta;
 import static T3.T3_9.piramide;
 
 public class T3_10 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Elige el modo del programa: ");
@@ -115,7 +115,9 @@ public class T3_10 {
                 break;
 
             case 'f':
-                tablasnumeros();
+                System.out.println("Dame un numero");
+                num = sc.nextInt();
+                tablasnumeros(num);
 
                 break;
 
